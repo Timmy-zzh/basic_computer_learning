@@ -33,7 +33,8 @@ int main() {
 
     //打开文件
     FILE *fp;
-    char *fileName = "E:\\project\\CLion\\basic_computer_learning\\elf\\libnative-lib.so";
+//    char *fileName = "E:\\project\\CLion\\basic_computer_learning\\elf\\libnative-lib.so";
+    char *fileName = "/Users/timmy1/study/basic_computer/basic_computer_learning/elf/libnative-lib.so";
     fp = fopen(fileName, "rb");
 
     DataOffset off = {0};

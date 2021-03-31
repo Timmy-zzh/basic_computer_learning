@@ -7,7 +7,7 @@
 int main(){
 
     printf("memeory ...");
-//    sysconf(_SC_PAGESIZE);
+    sysconf(_SC_PAGESIZE);
 
     return 0;
 }

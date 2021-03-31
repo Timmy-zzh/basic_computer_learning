@@ -8,3 +8,4 @@ add_executable(elf elf/elf_parse.c elf/elf_type.h elf/data_offset.h)
 
 # 添加子项目的 文件目录
 add_subdirectory("memory")
+add_subdirectory("mmap")

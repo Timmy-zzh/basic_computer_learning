@@ -24,6 +24,10 @@ int main() {
     char *heap_var = NULL;
     int local_var = 0;
 //    printf("Address of function main 0x%lx\n", main);
+    sbrk(0);
+    heap_var = (char *) malloc(sizeof(1024));
+    printf(" Address of function heap_var: 0x%08x\n", heap_var);
+
     printf(" Address of function main: 0x%08x\n", main);
     //求全局变量在虚拟地址空间中的地址
     printf("    Address of global_num: 0x%08x\n", &global_num);
