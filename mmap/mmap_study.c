@@ -4,11 +4,8 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/mman.h>
-#include <fcntl.h>
-#include <stdlib.h>
 
 /**
- * https://blog.csdn.net/jackingzheng/article/details/111594648
  * mmap 内存映射学习
  * 1。打开一个文件，
  * 2。将该文件通过mmap函数进行文件映射
